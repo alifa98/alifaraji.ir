@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir/Vazir-Medium.woff2') format('woff2'),
+        url('../fonts/vazir/Vazir-Medium.woff') format('woff'),
+        url('./fonts/vazir/Vazir-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'tanha';
+    src: url('../fonts/tanha/Tanha.woff2') format('woff2'),
+        url('../fonts/tanha/Tanha.woff') format('woff'),
+        url('./fonts/tanha/Tanha.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'samim';
+    src: url('../fonts/samim/Samim-Medium.woff2') format('woff2'),
+        url('../fonts/samim/Samim-Medium.woff') format('woff'),
+        url('./fonts/samim/Samim-Medium.ttf') format('truetype');
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #ddd, #fff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.aliMenu {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 30px;
+    border: solid 4px #eee;
+    box-shadow: 1px 3px 0 #d0cfd3;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15pt;
+    margin: 5px auto;
+}
+
+.btn>i {
+    float: left;
+}
+
+.github {
+    background: linear-gradient(to right, #27332f, #595c59);
+}
+
+.twitter {
+    background: linear-gradient(to right, #30988c, #53b492);
+}
+
+.skype {
+    background: linear-gradient(to right, #5edbf8, #0d67d2);
+}
+
+.instagram {
+    background: linear-gradient(to right, #f39049, #ed5189);
+}
+
+.blog {
+    background: #ff4b1f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #1fddff,
+            #ff4b1f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+            #1fddff,
+            #ff4b1f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.linkedin {
+    background: linear-gradient(to right, #43b477, #1177bb);
+    animation-name: mohemmm;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mohemmm {
+    from {
+        border-color: #eee;
+    }
+
+    to {
+        border-color: #f66;
+    }
+}
