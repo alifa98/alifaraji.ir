@@ -8,9 +8,63 @@ body {
     background-position: center center;
 }
 
-.aliMenu {
-    width: 250px;
+@keyframes mohemmm {
+    from {
+        border-color: #eee;
+    }
+
+    to {
+        border-color: #f66;
+    }
+}
+
+.container {
     margin: 0 auto;
+    width: 85%;
+}
+
+/******* Grid System ***********/
+.myRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.otherSection {
+    flex: 1;
+}
+
+.picSection {
+    width: 30%;
+}
+
+.aboutMeSection {
+    width: 40%;
+}
+
+.menuSection {
+    width: 20%;
+}
+
+@media (max-width: 600px) {
+    .myRow {
+        display: block;
+    }
+
+    .container {
+        width: 99%;
+    }
+
+    .picSection {
+        width: 100%;
+    }
+
+    .aboutMeSection {
+        width: 100%;
+    }
+
+    .menuSection {
+        width: 100%;
+    }
 }
 
 .btn {
@@ -22,10 +76,6 @@ body {
     text-decoration: none;
     font-size: 15pt;
     margin: 5px auto;
-}
-
-.btn>i {
-    float: left;
 }
 
 .github {
@@ -68,12 +118,10 @@ body {
     animation-iteration-count: infinite;
 }
 
-@keyframes mohemmm {
-    from {
-        border-color: #eee;
-    }
-
-    to {
-        border-color: #f66;
-    }
+header {
+    height: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #595c59;
+    padding: 10px 20px;
+    margin-bottom: 20px;
 }

@@ -20,9 +20,17 @@
 }
 
 body {
+    direction: rtl;
     font-family: 'vazir', Arial, Helvetica, sans-serif;
 }
 
 .btn {
     font-family: 'tanha';
+}
+
+header {
+    background: orange;
+    background: -webkit-linear-gradient(to right, yellow, orange);
+    background: linear-gradient(to right, yellow, orange);
+    font-family: 'samim';
 }
